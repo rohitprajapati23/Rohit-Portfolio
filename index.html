@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Rohit Prajapati | MERN Stack Developer Portfolio</title>
+
+  <meta name="description" content="Rohit Prajapati is a MERN Stack Developer skilled in React.js, Node.js, Express.js, MongoDB, HTML, CSS, JavaScript and full-stack web development." />
+
+  <meta name="keywords" content="Rohit Prajapati, MERN Stack Developer, Web Developer, React Developer, Node.js Developer, Portfolio, Full Stack Developer, JavaScript Developer" />
+
+  <meta name="author" content="Rohit Prajapati" />
+
+  <meta name="robots" content="index, follow" />
+
+  <meta property="og:title" content="Rohit Prajapati | MERN Stack Developer" />
+  <meta property="og:description" content="Personal portfolio website of Rohit Prajapati, MERN Stack Developer." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="images/profile.png" />
+
+  <link rel="canonical" href="https://your-portfolio-link.com/" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <header class="header">
+    <a href="#home" class="logo styles">Portfolio<span>.</span></a>
+
+    <nav class="navbar" id="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#showcase">ShowCases</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="menu-icon" id="menuIcon">
+      <i class="ri-menu-line"></i>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="home section" id="home">
+      <div class="home-content">
+        <p class="small-heading">Hello, I am</p>
+        <h1>Rohit Prajapati</h1>
+        <h2>I am a <span class="typing styles"></span></h2>
+
+        <p class="home-text">
+          I build modern, responsive and user-friendly websites using
+          HTML, CSS, JavaScript, React.js, Node.js, Express.js and MongoDB.
+        </p>
+
+        <div class="home-buttons">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="#contact" class="btn secondary">Hire Me</a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/rohitprajapati23" aria-label="GitHub"><i class="ri-github-fill"></i></a>
+          <a href="https://www.linkedin.com/in/rohit-prajapati-321a232ba/" aria-label="LinkedIn"><i class="ri-linkedin-fill"></i></a>
+          <a href="https://www.instagram.com/in/_rohit_.prajapati/" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+        </div>
+      </div>
+
+      <div class="home-image">
+        <div class="image-ring">
+          <div class="profile-circle">
+            <img src="images/profile-pic.jpeg" alt="Rohit Prajapati">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <section class="about section" id="about">
+      <h2 class="section-title">About <span class="styles">Me</span></h2>
+      <div class="about-pro">
+        <div class="about-pro-header">
+          <h3>Building modern MERN Stack Web Applications</h3>
+          <p>I am Rohit Prajapati Computer Science Engineering student and MERN Stack Developer
+            focused on building modern, responsive and user-friendly web
+            applications. I enjoy creating clean interfaces, smooth user experiences
+            and practical full-stack projects using HTML, CSS, JavaScript, React.js,
+            Node.js, Express.js and MongoDB.</p>
+          <p>My goal is to grow as a professional developer by building real-world
+              projects, improving problem-solving skills and creating digital
+            solutions that are useful, scalable and visually attractive.</p>
+
+          <div class="about-actions">
+            <a href="images/myresume_tex.pdf" class="about-primary-btn">
+              <!-- <i class="ri-download-line"></i> -->View Resume</a>
+            <a href="#contact" class="about-secondary-btn">
+              <i class="ri-send-plane-line"></i>Contact Me</a>
+          </div>
+        </div>
+        <div class="about-services">
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="ri-layout-4-line"></i>
+            </div>
+            <h4>Frontend Developer</h4>
+            <p>I design responsive, attractive and interactive user interfaces using
+                  HTML, CSS, JavaScript and React.js with a focus on clean layouts and
+                smooth animations.</p>
+          </div>
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="ri-server-line"></i>
+            </div>
+            <h4>Backend Developer</h4>
+            <p>I build server-side logic, REST APIs, authentication flows and
+              database-connected applications using Node.js, Express.js and MongoDB.
+            </p>
+          </div>
+
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="ri-lightbulb-flash-line"></i>
+            </div>
+              <h4>Problem Solver</h4>
+              <p>I enjoy solving technical problems, debugging issues and improving
+                  project functionality through logical thinking and practical solutions.
+              </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="showcase section" id="showcase">
+      <h2 class="section-title">My <span class="styles">Showcase</span></h2>
+      <p class="section-subtitle">A collection of my technical expertise, certifications and achievements that reflect my journey, dedication and passion for technology.</p>
+      <div class="showcase-wrapper">
+        <div class="showcase-tabs">
+          <button class="tab-btn active" data-target="skillsBox">
+          <i class="ri-code-s-slash-line"></i>Tech Skills
+          </button>
+          <button class="tab-btn" data-target="certificationsBox">
+            <i class="ri-award-line"></i> Certifications
+          </button>
+          <button class="tab-btn" data-target="achievementsBox">
+            <i class="ri-trophy-line"></i> Achievements
+          </button>
+        </div>
+        <div class="showcase-content">
+
+      <!-- Skills -->
+        <div class="showcase-panel active" id="skillsBox">
+          <div class="logo-cloud">
+            <div class="skill-logo html"><i class="ri-html5-fill"></i><span>HTML</span></div>
+            <div class="skill-logo css"><i class="ri-css3-fill"></i><span>CSS</span></div>
+            <div class="skill-logo js"><i class="ri-javascript-fill"></i><span>JavaScript</span></div>
+            <div class="skill-logo react"><i class="ri-reactjs-line"></i><span>React</span></div>
+            <div class="skill-logo node"><i class="ri-nodejs-line"></i><span>Node</span></div>
+            <div class="skill-logo express"><i class="ri-server-line"></i><span>Express</span></div>
+            <div class="skill-logo mongo"><i class="ri-database-2-line"></i><span>MongoDB</span></div>
+            <div class="skill-logo python"><i class="ri-python-line"></i><span>Python</span></div>
+            <div class="skill-logo cpp"><i class="ri-code-line"></i><span>C++</span></div>
+            <div class="skill-logo vscode"><i class="ri-terminal-box-line"></i><span>VS Code</span></div>
+            <div class="skill-logo git"><i class="ri-git-branch-line"></i><span>Git</span></div>
+            <div class="skill-logo github"><i class="ri-github-fill"></i><span>GitHub</span></div>
+            <div class="skill-logo render"><i class="ri-cloud-line"></i><span>Render</span></div>
+          </div>
+        </div>
+
+      <!-- Certifications -->
+        <div class="showcase-panel" id="certificationsBox">
+          <div class="certificate-grid">
+            <div class="certificate-card">
+              <div class="certificate-img">
+                <img src="images/Certificate.jpg" alt="Web Development Certificate">
+              </div>
+              <div class="certificate-info">
+                <h3>Web Development Industrial Training</h3>
+                <p>Completed 2 months industrial training on Web Development at PGTech.</p>
+                <button class="view-cert-btn" data-img="images/Certificate.jpg">View Certificate</button>
+              </div>
+            </div>
+            <div class="certificate-card">
+              <div class="certificate-img">
+                <img src="images/python-vital.png" alt="Python Internship Certificate">
+              </div>
+              <div class="certificate-info">
+                <h3>Python Internship</h3>
+                <p>Completed 2 months internship at Vital Skills focused on Python programming.</p>
+                <button class="view-cert-btn" data-img="images/python-vital.png">View Certificate</button>
+              </div>
+            </div>
+            <div class="certificate-card">
+              <div class="certificate-img">
+                <img src="images/SegathonR.jpeg" alt="Hackathon Certificate">
+              </div>
+              <div class="certificate-info">
+                <h3>Hackathon Participation</h3>
+                <p>Participated in national level hackathon and worked on an innovative project solution.</p>
+                <button class="view-cert-btn" data-img="images/SegathonR.jpeg">View Certificate</button>
+              </div>
+            </div>
+            <div class="certificate-card">
+              <div class="certificate-img">
+                <img src="images/second-position.jpg" alt="Academic Certificate">
+              </div>
+              <div class="certificate-info">
+                <h3>Academic Excellence</h3>
+                <p>Recognized for securing 2nd position in academic year 2023-2024.</p>
+                <button class="view-cert-btn" data-img="images/second-position.jpg">View Certificate</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Achievements -->
+      <div class="showcase-panel" id="achievementsBox">
+        <div class="achievement-timeline">
+
+          <div class="achievement-item">
+            <div class="achievement-rank">01</div>
+            <div class="achievement-data">
+              <span>National Level Hackathon</span>
+              <h3>Best Innovation Award Winner</h3>
+              <p>Won Best Innovation Award at Tech Sageathon organized at SIRT Bhopal.</p>
+              <button class="view-cert-btn" data-img="images/SegathonR.jpeg">View Certificate</button>
+            </div>
+          </div>
+
+          <div class="achievement-item">
+            <div class="achievement-rank">02</div>
+            <div class="achievement-data">
+              <span>Tech Fest</span>
+              <h3>Tech Fest Winner (3rd position)</h3>
+              <p>Secured 3rd position in Tech Fest for project presentation at BUEST, HP.</p>
+              <button class="view-cert-btn" data-img="images/Tech-Fest.jpg">View Certificate</button>
+            </div>
+          </div>
+
+          <div class="achievement-item">
+            <div class="achievement-rank">03</div>
+            <div class="achievement-data">
+              <span>Academic Excellence</span>
+              <h3>2nd Position in Academic Year 2023-2024</h3>
+              <p>Recognized for excellent academic performance during the academic year.</p>
+              <button class="view-cert-btn" data-img="images/second-position.jpg">View Certificate</button>
+            </div>
+          </div>
+
+          <div class="achievement-item">
+            <div class="achievement-rank">04</div>
+            <div class="achievement-data">
+              <span>Leadership</span>
+              <h3>UGC Saarthi Ambassador</h3>
+              <p>Appointed as Saarthi Ambassador of university by UGC.</p>
+              <button class="view-cert-btn" data-img="images/saarthi.jpeg">View Certificate</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Certificate Popup -->
+<div class="certificate-popup" id="certificatePopup">
+  <div class="popup-content">
+    <button class="close-popup" id="closePopup">
+      <i class="ri-close-line"></i>
+    </button>
+    <img src="" alt="Certificate Preview" id="popupCertificate">
+  </div>
+</div>
+
+
+    <section class="projects section" id="projects">
+      <h2 class="section-title">
+        My <span class="styles">Projects</span>
+      </h2>
+      <p class="section-subtitle">A collection of my frontend and full-stack projects built with modern web technologies.</p>
+
+      <div class="project-filter-tabs">
+        <button class="project-filter active" data-filter="all">All</button>
+        <button class="project-filter" data-filter="frontend">Frontend</button>
+        <button class="project-filter" data-filter="fullstack">Full Stack</button>
+      </div>
+
+      <div class="projects-grid" id="projectsGrid">
+
+        <div class="project-card" data-category="frontend">
+          <div class="project-image">
+            <img src="images/rest2.png" alt="Bella Vista Website">
+            <div class="project-overlay">
+              <a href="https://bellavistabyrohit.vercel.app/" target="_blank" class="overlay-btn live">
+              <i class="ri-external-link-line"></i>
+              </a>
+              <a href="https://github.com/rohitprajapati23/BellaVista" target="_blank" class="overlay-btn github">
+              <i class="ri-github-fill"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Bella Vista Website</h3>
+            <p>A luxury hotel and restaurant website with booking UI, rooms, dining and gallery.</p>
+            <div class="tech-stack">
+              <i class="ri-html5-fill html"></i>
+              <i class="ri-css3-fill css"></i>
+              <i class="ri-javascript-fill js"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="frontend">
+          <div class="project-image">
+            <img src="images/cryptrade.png" alt="CrypTrade Website">
+            <div class="project-overlay">
+              <a href="https://cryptradebyrohit.netlify.app/" target="_blank" class="overlay-btn live">
+                <i class="ri-external-link-line"></i>
+              </a>
+              <a href="https://github.com/rohitprajapati23/stock-trading" target="_blank" class="overlay-btn github">
+                <i class="ri-github-fill"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Stock Trading Website</h3>
+            <p>A modern stock trading website UI with dashboard, market cards and clean layout.</p>
+            <div class="tech-stack">
+              <i class="ri-reactjs-line react"></i>
+              <i class="ri-css3-fill css"></i>
+              <i class="ri-javascript-fill js"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="fullstack">
+          <div class="project-image">
+            <img src="images/sperformance.jpg" alt="Student Performance Analyzer">
+            <div class="project-overlay">
+              <a href="#" target="_blank" class="overlay-btn live">
+                <i class="ri-external-link-line"></i>
+              </a>
+              <a href="#" target="_blank" class="overlay-btn github">
+                <i class="ri-github-fill"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Student Performance Analyzer</h3>
+            <p>A student analytics system for managing records, attendance and performance insights.</p>
+            <div class="tech-stack">
+              <i class="ri-reactjs-line react"></i>
+              <i class="ri-nodejs-line node"></i>
+              <i class="ri-database-2-line mongo"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="frontend">
+          <div class="project-image">
+            <img src="images/weathers.png" alt="Bella Vista Website">
+            <div class="project-overlay">
+              <a href="https://weatherforecastbyrohit.netlify.app/" target="_blank" class="overlay-btn live">
+                <i class="ri-external-link-line"></i>
+              </a>
+              <a href="https://github.com/rohitprajapati23/Weather-Dashboard" target="_blank" class="overlay-btn github">
+                <i class="ri-github-fill"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Weather App</h3>
+            <p>A weather application showing live weather details using API and clean UI.</p>
+            <div class="tech-stack">
+              <i class="ri-html5-fill html"></i>
+              <i class="ri-css3-fill css"></i>
+              <i class="ri-javascript-fill js"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="frontend">
+          <div class="project-image">
+            <img src="images/laundry.jpg" alt="Laundry Mart Website">
+            <div class="project-overlay">
+              <a href="https://laundrymartwebsite.netlify.app/" target="_blank" class="overlay-btn live">
+                <i class="ri-external-link-line"></i>
+              </a>
+              <a href="https://github.com/rohitprajapati23/Laundry_Mart" target="_blank" class="overlay-btn github">
+                <i class="ri-github-fill"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Laundry Mart</h3>
+            <p>A modern and responsive laundry service website designed for hassle-free customer experience.</p>
+            <div class="tech-stack">
+              <i class="ri-html5-fill html"></i>
+              <i class="ri-css3-fill css"></i>
+              <i class="ri-javascript-fill js"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="frontend">
+          <div class="project-image">
+            <img src="images/carddisplay.png" alt="React Card">
+            <div class="project-overlay">
+              <a href="https://assignmetfive.netlify.app/" target="_blank" class="overlay-btn live">
+                <i class="ri-external-link-line"></i>
+              </a>
+              <a href="https://github.com/rohitprajapati23/assignment-five" target="_blank" class="overlay-btn github">
+                <i class="ri-github-fill"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Photo Card Display</h3>
+            <p>Displaying photo cards using react.</p>
+            <div class="tech-stack">
+              <i class="ri-reactjs-line react"></i>
+              <!-- <i class="ri-nodejs-line node"></i>
+              <i class="ri-database-2-line mongo"></i> -->
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="frontend">
+          <div class="project-image">
+            <img src="images/netflix.jpg" alt="Bella Vista Website">
+            <div class="project-overlay">
+              <a href="https://netfliclonebyrohit.netlify.app/" target="_blank" class="overlay-btn live">
+                <i class="ri-external-link-line"></i>
+              </a>
+              <a href="https://github.com/rohitprajapati23/Netflix_Clone" target="_blank" class="overlay-btn github">
+                <i class="ri-github-fill"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Netflix Clone</h3>
+            <p>A responsive Netflix clone featuring a modern streaming-inspired UI.</p>
+            <div class="tech-stack">
+              <i class="ri-html5-fill html"></i>
+              <i class="ri-css3-fill css"></i>
+              <i class="ri-javascript-fill js"></i>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="view-all-wrapper">
+          <button class="view-all-btn" id="viewAllProjects">View All Projects
+            <i class="ri-arrow-down-line"></i>
+          </button>
+        </div>
+      </section>
+
+    
+
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Contact <span class="styles">Me</span></h2>
+      <p class="section-subtitle">Have a project idea, collaboration opportunity or just want to connect?
+          Feel free to reach out.
+      </p>
+
+      <div class="contact-container">
+        <div class="contact-left">
+          <span class="contact-badge">GET IN TOUCH</span>
+          <h3>Let’s build something amazing together.</h3>
+          <p>I am always open to discussing new projects, creative ideas,
+              internships, freelance work or opportunities to be part of your vision.
+          </p>
+          <div class="contact-highlights">
+            <div>
+              <i class="ri-time-line"></i>
+              <span>Quick Response</span>
+            </div>
+            <div>
+              <i class="ri-code-s-slash-line"></i>
+              <span>Project Collaboration</span>
+            </div>
+          </div>
+
+          <div class="contact-socials">
+            <a href="https://wa.me/9369856812" target="_blank" class="whatsapp" aria-label="WhatsApp">
+              <i class="ri-whatsapp-line"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/rohit-prajapati-321a232ba/" target="_blank" class="linkedin" aria-label="LinkedIn">
+              <i class="ri-linkedin-fill"></i>
+            </a>
+            <a href="mailto:rohitprajapati232224@gmail.com" class="gmail" aria-label="Gmail">
+              <i class="ri-mail-line"></i>
+            </a>
+          </div>
+        </div>
+
+        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" id="contactForm">
+          <input type="hidden" name="access_key" value="f7d661a8-9993-4f5a-994f-b803a827cfba">
+          <h3>Send me a message</h3>
+          <input type="text" id="name" name="name" placeholder="Your Name" required />
+          <input type="email" id="email" name="email" placeholder="Your Email" required />
+          <input type="text" id="subject" name="subject" placeholder="Subject" required />
+          <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">
+            Send Message
+            <i class="ri-send-plane-fill"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Rohit Prajapati | All Rights Reserved</p>
+  </footer>
+
+  <button class="top-btn" id="topBtn" aria-label="Back to top">
+    <i class="ri-arrow-up-line"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
